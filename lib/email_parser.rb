@@ -7,8 +7,8 @@ class EmailAddressParser
 
   def self.parse(email_addresses)
 
-      email = email_addresses.split("/n")
-      email.collect do |e|
+
+      email_addresses.collect do |e|
       e.split(", ")
     end
   end
