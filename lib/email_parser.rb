@@ -11,3 +11,4 @@ class EmailAddressParser
   email.collect do |e|
   e.split(", ")
 end
+end
