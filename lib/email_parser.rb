@@ -5,11 +5,9 @@
 
 class EmailAddressParser
 
+  attr_accessor :parse
   def initialize(parse)
+    
 
-      email = parse.split("/n")
-      email.collect do |e|
-      e.split(", ")
-  end
 end
 end
