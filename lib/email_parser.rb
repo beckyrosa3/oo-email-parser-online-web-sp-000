@@ -5,11 +5,9 @@
 
 class EmailAddressParser
 
-  def self.parse(email_addresses)
+  def initiate(parser)
 
+  parser.split(", ")
 
-
-      email_addresses.split(", ")
-    
   end
 end
