@@ -8,7 +8,7 @@ class EmailAddressParser
   def self.parse(email_addresses)
 
 
-    
+
       email_addresses.split(", ")
     
   end
