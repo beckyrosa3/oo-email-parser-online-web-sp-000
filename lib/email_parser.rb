@@ -14,3 +14,4 @@ class EmailAddressParser
   def parse(emails)
     emails = parse.split(", ")
 end
+end
