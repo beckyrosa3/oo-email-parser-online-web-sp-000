@@ -5,6 +5,7 @@
 
 class EmailAddressParser
 
+  @@emails = []
   def initiate(parser)
 
   parser.split(", ")
