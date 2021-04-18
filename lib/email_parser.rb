@@ -5,9 +5,11 @@
 
 class EmailAddressParser
 
-  @@emails = []
   def initialize(parse)
 
-
+      email = parse.split("/n")
+      email.collect do |e|
+      e.split(", ")
   end
+end
 end
